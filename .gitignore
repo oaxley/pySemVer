@@ -1,0 +1,13 @@
+# hidden files/directories
+.coverage
+.mypy_cache/**
+.pytest_cache/**
+.tox/**
+
+# python cache directory
+**/__pycache__
+
+# files created during the setup
+*.egg-info/**
+dist/**
+build/**
