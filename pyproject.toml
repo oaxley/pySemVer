@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pySemVer"
+version = "1.0.0"
+description = ""
+authors = ["slegrand <ut5svsxgc@relay.firefox.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^21.7b0"
+mypy = "^0.910"
+coverage = "^5.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
